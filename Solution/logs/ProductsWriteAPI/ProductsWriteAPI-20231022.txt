@@ -1,0 +1,30 @@
+[12:38:45 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[12:38:45 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[12:38:45 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[12:38:45 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[12:38:45 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[12:38:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 786.7275ms
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 5.5071ms
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 127.6056ms
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.2525ms
+[19:22:39 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("66"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[19:22:39 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+[19:22:39 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+[19:22:39 Microsoft.EntityFrameworkCore.Migrations [Information] Applying migration '"20230523193437_Inicial"'.
+[19:22:39 Microsoft.EntityFrameworkCore.Database.Command [Error] Failed executing DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"Images\" (
+    \"Id\" uuid NOT NULL,
+    \"Path\" text NOT NULL,
+    \"AlternativeText\" text NOT NULL,
+    \"FechaBaja\" timestamp with time zone NULL,
+    CONSTRAINT \"PK_Images\" PRIMARY KEY (\"Id\")
+);"

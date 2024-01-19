@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1U5bxL3XgGBjWEPX1JVD9/m8DLtDDC/3FKxM4fr5jQT8uMXateBzClQe5OCDE1LSb7dKteXzQDfHQ/Dk1cI2jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\EntityService\\EntityService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Josean\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

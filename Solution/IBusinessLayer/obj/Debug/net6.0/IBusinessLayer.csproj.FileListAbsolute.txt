@@ -1,0 +1,17 @@
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\bin\Debug\net6.0\IBusinessLayer.deps.json
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\bin\Debug\net6.0\IBusinessLayer.dll
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\bin\Debug\net6.0\IBusinessLayer.pdb
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\bin\Debug\net6.0\EntityService.dll
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\bin\Debug\net6.0\EntityService.pdb
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\IBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\IBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\IBusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\IBusinessLayer.AssemblyInfo.cs
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\IBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\IBusinessLayer.csproj.CopyComplete
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\IBusinessLayer.dll
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\refint\IBusinessLayer.dll
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\IBusinessLayer.pdb
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\obj\Debug\net6.0\ref\IBusinessLayer.dll
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\bin\Debug\net6.0\DTOs.dll
+C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\IBusinessLayer\bin\Debug\net6.0\DTOs.pdb

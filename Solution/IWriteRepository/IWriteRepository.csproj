@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Base\IBaseWriteRepository2.cs" />
+    <Compile Remove="IBrandsWriteRepository.cs" />
+    <Compile Remove="ICategoriesWriteRepository.cs" />
+    <Compile Remove="IImagesWriteRepository.cs" />
+    <Compile Remove="IProductsImagesWriteRepository.cs" />
+    <Compile Remove="IProductsWriteRepository.cs" />
+    <Compile Remove="ITextsWriteRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DBContext\DBContext.csproj" />
+    <ProjectReference Include="..\EntityService\EntityService.csproj" />
+  </ItemGroup>
+
+</Project>

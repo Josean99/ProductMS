@@ -1,0 +1,17 @@
+{
+  "DBContext, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DBContext",
+  "DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DTOs",
+  "EntityService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\EntityService",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure",
+  "Infrastructure.Register, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure.Register",
+  "IReadBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadBusinessLayer",
+  "IReadRepositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadRepositories",
+  "IWriteBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IBusinessLayer",
+  "IWriteRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IWriteRepository",
+  "ProductsWriteAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\PatxiPersianasWriteAPI",
+  "ReadBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ReadBusinessLayer",
+  "ReadRepositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ReadRepositories",
+  "Test.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Test.Common",
+  "WriteBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\BusinessLayer",
+  "WriteRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\WriteRepository"
+}

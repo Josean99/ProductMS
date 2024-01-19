@@ -1,0 +1,387 @@
+[11:23:35 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[11:23:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[11:23:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[11:23:36 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[11:23:36 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[11:23:36 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[11:23:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[11:23:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger - -
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger - - - 0 - - 307.1668ms
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 1176.6980ms
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - -
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui-standalone-preset.js - -
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui-bundle.js - -
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 11.4445ms
+[11:23:38 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/swagger-ui.css" was not modified
+[11:23:38 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/swagger-ui-bundle.js" was not modified
+[11:23:38 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/swagger-ui-standalone-preset.js" was not modified
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 14.1037ms
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - - - 304 - text/css 22.4698ms
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 14.2037ms
+[11:23:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.0334ms
+[11:23:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - -
+[11:23:39 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[11:23:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - - - 0 628 image/png 20.4695ms
+[11:23:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[11:23:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.5361ms
+[11:23:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:23:50 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[11:23:50 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[11:23:52 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("81"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[11:23:52 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[11:23:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2501.6118ms
+[11:23:52 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[11:23:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2655.2843ms
+[11:24:43 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[11:24:43 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[11:24:43 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[11:24:43 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[11:24:43 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[11:24:43 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[11:24:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[11:24:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 490.0194ms
+[11:24:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[11:24:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[11:24:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 15.7600ms
+[11:24:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.0934ms
+[11:24:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[11:24:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.1721ms
+[11:24:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:25:06 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[11:25:06 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[11:25:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 19391.5467ms
+[11:25:29 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[11:25:29 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[11:25:29 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[11:25:30 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[11:25:30 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[11:25:30 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[11:25:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[11:25:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 477.9676ms
+[11:25:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[11:25:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[11:25:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 13.4291ms
+[11:25:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.9897ms
+[11:25:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[11:25:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.1781ms
+[11:25:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:25:38 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[11:25:38 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[11:25:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 3565.6641ms
+[11:25:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:25:56 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[11:25:56 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[11:25:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 3969.7271ms
+[11:26:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:26:32 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: 'System.Text.StringBuilder'.
+Exceptions caught:
+ 'System.Text.StringBuilder'.
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[11:26:32 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] "Bearer" was not authenticated. Failure message: "IDX10503: Signature validation failed. Token does not have a kid. Keys tried: 'System.Text.StringBuilder'.
+Exceptions caught:
+ 'System.Text.StringBuilder'.
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'."
+[11:26:32 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] "Bearer" was not authenticated. Failure message: "IDX10503: Signature validation failed. Token does not have a kid. Keys tried: 'System.Text.StringBuilder'.
+Exceptions caught:
+ 'System.Text.StringBuilder'.
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'."
+[11:26:40 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[11:26:40 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[11:26:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 9684.5793ms
+[11:27:45 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[11:27:45 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[11:27:45 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[11:27:45 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[11:27:45 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[11:27:45 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[11:27:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[11:27:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 447.9587ms
+[11:27:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[11:27:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[11:27:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 13.1175ms
+[11:27:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.2817ms
+[11:27:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[11:27:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.9351ms
+[11:27:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:28:10 Infrastructure.Auth.BasicAuthenticationHandler [Information] "BasicAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[11:28:24 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[11:28:24 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[11:28:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 32980.6782ms
+[11:55:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:55:43 Infrastructure.Auth.BasicAuthenticationHandler [Information] "BasicAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[11:55:45 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[11:55:45 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[11:55:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 8441.3885ms
+[11:57:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[11:57:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[11:57:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[11:57:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[11:57:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[11:57:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[11:57:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[11:57:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 466.0603ms
+[11:57:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[11:57:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[11:57:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 14.6421ms
+[11:57:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.1634ms
+[11:57:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[11:57:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.9793ms
+[11:57:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:57:45 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[11:57:48 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[11:57:48 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[11:57:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 9048.3522ms
+[11:58:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:58:35 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters."
+[11:58:36 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: 'System.Text.StringBuilder'.
+Exceptions caught:
+ 'System.Text.StringBuilder'.
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[11:58:36 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] "Bearer" was not authenticated. Failure message: "IDX10503: Signature validation failed. Token does not have a kid. Keys tried: 'System.Text.StringBuilder'.
+Exceptions caught:
+ 'System.Text.StringBuilder'.
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'."
+[11:58:37 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[11:58:37 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[11:58:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 34877.3684ms
+[11:58:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[11:59:36 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[11:59:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[11:59:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[11:59:36 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[11:59:36 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[11:59:36 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[11:59:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[11:59:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 473.1605ms
+[11:59:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[11:59:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[11:59:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 14.9155ms
+[11:59:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.4475ms
+[11:59:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[11:59:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.0210ms
+[11:59:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[12:02:25 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[12:02:26 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[12:02:26 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[12:02:26 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[12:02:26 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[12:02:26 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[12:02:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[12:02:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 840.9267ms
+[12:02:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[12:02:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[12:02:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 11.4042ms
+[12:02:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.3800ms
+[12:02:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[12:02:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.1537ms
+[12:02:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[12:58:42 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[12:58:42 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[12:58:42 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[12:58:42 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[12:58:42 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[12:58:42 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[12:58:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[12:58:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 509.4395ms
+[12:58:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[12:58:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[12:58:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 15.0922ms
+[12:58:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.0741ms
+[12:58:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[12:58:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 129.6674ms
+[12:58:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[12:59:22 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[12:59:22 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: JwtAuthentication. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)? 
+ 
+Exception GUID: 933d18f1-a6d0-4809-9021-3b2dac03433f
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: JwtAuthentication. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[12:59:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 500 - application/json 28785.1531ms
+[12:59:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[12:59:43 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[12:59:48 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: JwtAuthentication. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)? 
+ 
+Exception GUID: bcc6a803-fd1f-4a4c-acfc-29f205131c56
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: JwtAuthentication. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[12:59:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 500 - application/json 10067.7554ms
+[12:59:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:00:07 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:02:03 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:02:03 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[13:02:03 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[13:02:03 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:02:03 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:02:03 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[13:02:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[13:02:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 476.5573ms
+[13:02:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[13:02:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[13:02:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.0759ms
+[13:02:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.7154ms
+[13:02:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[13:02:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.1593ms
+[13:02:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:02:11 Infrastructure.Auth.JwtAuthenticationHandler [Information] "Bearer" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:02:14 Infrastructure.Auth.JwtAuthenticationHandler [Information] "Bearer" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:02:19 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[13:02:19 Infrastructure.Auth.JwtAuthenticationHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[13:02:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 11233.2996ms
+[13:02:42 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:02:43 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[13:02:43 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[13:02:43 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:02:43 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:02:43 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[13:02:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[13:02:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 465.9659ms
+[13:02:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[13:02:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[13:02:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 13.9860ms
+[13:02:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.9406ms
+[13:02:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[13:02:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.5083ms
+[13:02:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:02:56 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:02:56 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: JwtAuthentication. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)? 
+ 
+Exception GUID: 1fcfd131-1c72-4747-bd9a-a98c2a68b862
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: JwtAuthentication. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[13:02:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 500 - application/json 3400.6267ms
+[13:02:58 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:03:02 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:03:39 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:03:39 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[13:03:39 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[13:03:39 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:03:39 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:03:39 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[13:03:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[13:03:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 521.9965ms
+[13:03:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[13:03:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[13:03:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.8629ms
+[13:03:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.5502ms
+[13:03:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[13:03:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.2907ms
+[13:03:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:03:48 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:04:03 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:04:03 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[13:04:03 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[13:04:03 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:04:03 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:04:03 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[13:04:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[13:04:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 465.4609ms
+[13:04:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[13:04:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[13:04:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 15.3051ms
+[13:04:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.3418ms
+[13:04:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[13:04:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.9098ms
+[13:04:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:04:11 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:04:34 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:04:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[13:04:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[13:04:34 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:04:34 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:04:34 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[13:04:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[13:04:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 471.7085ms
+[13:04:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[13:04:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[13:04:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 13.2116ms
+[13:04:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.8954ms
+[13:04:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[13:04:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.0150ms
+[13:04:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:04:44 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:05:35 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:05:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[13:05:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[13:05:36 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:05:36 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:05:36 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[13:05:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[13:05:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 452.8502ms
+[13:05:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[13:05:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[13:05:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.6003ms
+[13:05:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.1208ms
+[13:05:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[13:05:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.2795ms
+[13:05:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:05:44 Infrastructure.Auth.JwtAuthenticationHandler [Information] "JwtAuthentication" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:06:06 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:06:06 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[13:06:06 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[13:06:06 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:06:06 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:06:06 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[13:06:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[13:06:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 488.4025ms
+[13:06:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[13:06:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[13:06:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.4012ms
+[13:06:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.7741ms
+[13:06:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[13:06:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.7992ms
+[13:06:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:06:17 Infrastructure.Auth.JwtAuthenticationHandler [Information] "Bearer" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:06:19 Infrastructure.Auth.JwtAuthenticationHandler [Information] "Bearer" was not authenticated. Failure message: "Authentication failed: The format of value '<null>' is invalid."
+[13:06:22 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "Fail() was explicitly called."
+[13:06:22 Infrastructure.Auth.JwtAuthenticationHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[13:06:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 401 0 - 9553.2473ms
+[13:06:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[13:50:51 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:50:52 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[13:50:52 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[13:50:52 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:50:52 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:50:52 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[13:50:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger - -
+[13:50:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[13:50:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger - - - 0 - - 140.7081ms
+[13:50:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 450.4473ms
+[13:50:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[13:50:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[13:50:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.6288ms
+[13:50:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.5381ms
+[13:50:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[13:50:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.7153ms

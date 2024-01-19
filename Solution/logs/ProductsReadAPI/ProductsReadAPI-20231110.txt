@@ -1,0 +1,1131 @@
+[19:32:37 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:32:37 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:32:37 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:32:37 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:32:37 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:32:37 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:32:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:32:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:32:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.8978ms
+[19:32:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 860.5094ms
+[19:32:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:32:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.5928ms
+[19:32:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:32:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.0960ms
+[19:32:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:34:32 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+Infrastructure.auth.AccessRequirement"
+[19:34:32 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was forbidden.
+[19:34:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 403 0 - 95458.3499ms
+[19:35:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:35:44 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+Infrastructure.auth.AccessRequirement"
+[19:35:44 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was forbidden.
+[19:35:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 403 0 - 118.7883ms
+[19:35:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:35:45 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+Infrastructure.auth.AccessRequirement"
+[19:35:45 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was forbidden.
+[19:35:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 403 0 - 29.5383ms
+[19:35:58 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:35:58 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:35:58 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:35:58 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:35:58 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:35:58 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:35:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:35:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:35:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 468.5781ms
+[19:35:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.0545ms
+[19:36:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:36:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.2349ms
+[19:36:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:36:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.3020ms
+[19:36:17 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:36:55 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+Infrastructure.auth.AccessRequirement"
+[19:36:55 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was forbidden.
+[19:36:58 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 403 0 - 40396.8613ms
+[21:15:30 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:15:30 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:15:30 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:15:30 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:15:30 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:15:30 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:15:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:15:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:15:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 496.8798ms
+[21:15:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 14.2760ms
+[21:15:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:15:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.1345ms
+[21:15:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:15:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.1991ms
+[21:15:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[21:15:40 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[21:15:40 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[21:15:44 Microsoft.EntityFrameworkCore.Database.Connection [Error] An error occurred using the connection to database '"ProductsMS"' on server '""'.
+[21:15:44 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"DBContext.ProductsAPIContext"'."
+""Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed"
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed
+[21:15:44 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 3961.5623ms
+[21:15:44 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[21:15:44 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ 28P01: la autentificaci�n password fall� para el usuario �postgres� 
+ 
+Exception GUID: 150347b4-f1ad-4976-898c-99d1b4d8e810
+Infrastructure.Exceptions.Entities.GenericException
+ ---> Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ReadBusinessLayer.BrandsReadService.GetAll() in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ReadBusinessLayer\BrandsReadService.cs:line 31
+   at ProductsReadAPI.Controllers.BrandsController.Get() in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\Controllers\BrandsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed
+   --- End of inner exception stack trace ---
+[21:15:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 4121.5422ms
+[21:33:28 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:33:29 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:33:29 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:33:29 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:33:29 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:33:29 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:33:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:33:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:33:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.4006ms
+[21:33:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 544.5988ms
+[21:33:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:33:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.9994ms
+[21:33:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:33:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.7048ms
+[21:34:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[21:34:10 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+Infrastructure.auth.AccessRequirement"
+[21:34:10 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was forbidden.
+[21:34:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 403 0 - 2837.6907ms
+[21:50:44 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:50:44 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:50:44 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:50:44 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:50:44 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:50:44 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:50:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:50:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 525.8255ms
+[21:50:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:50:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 15.2593ms
+[21:50:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:50:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.5353ms
+[21:50:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:50:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.4496ms
+[21:50:58 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[21:51:08 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ Unexpected character encountered while parsing value: S. Path '', line 0, position 0. 
+ 
+Exception GUID: 4b9d965a-dec2-4249-bb7b-1466f9a2ce5d
+Infrastructure.Exceptions.Entities.GenericException
+ ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: S. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at ExternalServices.Implementation.JwtService.GetAllowedMethods(GetAllowedMethodsDto dto) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\Implementation\JwtService.cs:line 39
+   at Infrastructure.Auth.BasicAuthenticationHandler.HandleAuthenticateAsync() in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Auth\BasicAuthenticationHandler.cs:line 49
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[21:51:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 10132.0275ms
+[21:51:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[21:52:18 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+Infrastructure.auth.AccessRequirement"
+[21:52:18 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was forbidden.
+[21:52:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 403 0 - 25286.8704ms
+[22:03:24 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:03:25 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:03:25 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:03:25 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:03:25 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:03:25 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:03:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:03:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:03:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.9658ms
+[22:03:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 500.3982ms
+[22:03:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:03:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.2005ms
+[22:03:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:03:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.1868ms
+[22:03:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:03:40 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+Infrastructure.auth.AccessRequirement"
+[22:03:40 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was forbidden.
+[22:03:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 403 0 - 4279.2293ms
+[22:13:20 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:13:20 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:13:20 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:13:21 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:13:21 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:13:21 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:13:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:13:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:13:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 514.1174ms
+[22:13:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 7.2162ms
+[22:13:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:13:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.2850ms
+[22:13:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:13:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.7932ms
+[22:13:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:13:42 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+Infrastructure.auth.AccessRequirement"
+[22:13:42 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was forbidden.
+[22:13:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 403 0 - 3147.2757ms
+[22:13:59 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:13:59 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:13:59 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:13:59 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:13:59 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:13:59 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:14:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:14:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:14:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.3910ms
+[22:14:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 515.3651ms
+[22:14:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:14:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.6737ms
+[22:14:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:14:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.9868ms
+[22:14:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:14:11 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+Infrastructure.auth.AccessRequirement"
+[22:14:11 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was challenged.
+[22:14:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 19.5452ms
+[22:19:30 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:19:30 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:19:30 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:19:30 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:19:30 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:19:30 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:19:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:19:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:19:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 471.9863ms
+[22:19:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.7486ms
+[22:19:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:19:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.7277ms
+[22:19:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:19:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.2431ms
+[22:19:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:19:41 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:19:41 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:19:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 20.2410ms
+[22:22:07 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:22:07 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:22:07 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:22:07 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:22:07 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:22:07 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:22:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:22:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:22:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.7059ms
+[22:22:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 515.0434ms
+[22:22:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:22:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.4476ms
+[22:22:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:22:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.3111ms
+[22:22:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:22:18 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:22:18 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:22:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 21.8512ms
+[22:23:52 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:23:53 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:23:53 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:23:53 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:23:53 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:23:53 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:23:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:23:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:23:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.0292ms
+[22:23:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 542.3377ms
+[22:23:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:23:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.6873ms
+[22:23:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:23:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 152.0451ms
+[22:24:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:24:04 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:24:04 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:24:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 23.3235ms
+[22:29:26 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:29:26 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:29:26 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:29:26 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:29:26 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:29:26 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:29:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:29:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 518.7505ms
+[22:29:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:29:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.6987ms
+[22:29:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:29:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.5647ms
+[22:29:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:29:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.5247ms
+[22:29:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:29:38 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:29:38 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:29:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 19.9935ms
+[22:29:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:29:46 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:29:46 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:29:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 2.0472ms
+[22:29:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:29:46 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:29:46 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:29:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 2.9809ms
+[22:29:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:29:47 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:29:47 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:29:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 0.7526ms
+[22:29:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:29:47 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:29:47 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:29:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 0.8734ms
+[22:31:46 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:31:47 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:31:47 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:31:47 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:31:47 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:31:47 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:31:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:31:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 486.4430ms
+[22:31:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:31:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.5994ms
+[22:31:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:31:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.1306ms
+[22:31:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:31:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.9045ms
+[22:31:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:31:57 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:31:57 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:31:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 20.4539ms
+[22:50:02 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:50:02 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:50:02 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:50:02 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:50:02 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:50:02 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:50:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:50:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 505.4950ms
+[22:50:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:50:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.8326ms
+[22:50:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:50:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.4196ms
+[22:50:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:50:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.4164ms
+[22:50:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:50:34 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:50:34 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:50:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 27.9871ms
+[22:52:19 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:52:20 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:52:20 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:52:20 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:52:20 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:52:20 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:52:20 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:52:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 509.3694ms
+[22:52:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:52:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 7.0221ms
+[22:52:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:52:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.3088ms
+[22:52:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:52:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.2115ms
+[22:52:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:52:31 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:52:31 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[22:52:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 19.3657ms
+[22:54:39 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:54:39 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:54:39 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:54:39 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:54:39 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:54:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:54:39 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[22:54:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 500 - text/html;+charset=utf-8 383.3103ms
+[22:54:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:54:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:54:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 10.4740ms
+[22:54:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.6961ms
+[22:54:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/favicon.ico - -
+[22:54:41 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[22:54:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/favicon.ico - - - 500 - text/plain;+charset=utf-8 5.2670ms
+[22:55:07 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:55:07 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:55:07 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:55:07 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:55:07 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:55:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:55:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 476.6213ms
+[22:55:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:55:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.6286ms
+[22:55:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:55:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.2732ms
+[22:55:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:55:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.5345ms
+[22:55:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:55:15 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[22:55:15 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions). 
+ 
+Exception GUID: 20949a1f-1a85-4cc6-b26c-d7c3265ce8b7
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[22:55:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 107.0436ms
+[22:55:37 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:55:37 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:55:37 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:55:37 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:55:37 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:55:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:55:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:55:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.3304ms
+[22:55:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 490.7337ms
+[22:55:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:55:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.2376ms
+[22:55:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:55:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.5719ms
+[22:55:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:55:49 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[22:55:49 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[22:55:54 Microsoft.EntityFrameworkCore.Database.Connection [Error] An error occurred using the connection to database '"ProductsMS"' on server '""'.
+[22:55:54 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"DBContext.ProductsAPIContext"'."
+""Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed"
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed
+[22:55:54 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 5806.3174ms
+[22:55:54 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[22:55:54 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ 28P01: la autentificaci�n password fall� para el usuario �postgres� 
+ 
+Exception GUID: 876b8465-d355-438d-b3d7-01ace0d519ed
+Infrastructure.Exceptions.Entities.GenericException
+ ---> Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ReadBusinessLayer.BrandsReadService.GetAll() in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ReadBusinessLayer\BrandsReadService.cs:line 31
+   at ProductsReadAPI.Controllers.BrandsController.Get() in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\Controllers\BrandsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed
+   --- End of inner exception stack trace ---
+[22:55:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 5941.1782ms
+[22:56:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[22:56:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[22:56:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[22:56:08 Microsoft.EntityFrameworkCore.Database.Connection [Error] An error occurred using the connection to database '"ProductsMS"' on server '""'.
+[22:56:08 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"DBContext.ProductsAPIContext"'."
+""Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed"
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed
+[22:56:20 Microsoft.EntityFrameworkCore.Database.Connection [Error] An error occurred using the connection to database '"ProductsMS"' on server '""'.
+[22:56:20 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"DBContext.ProductsAPIContext"'."
+""Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed"
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed
+[22:56:20 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 20634.3718ms
+[22:56:20 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[22:56:20 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ 28P01: la autentificaci�n password fall� para el usuario �postgres� 
+ 
+Exception GUID: 6d7c4caa-91ed-4693-8dda-b08af73a218e
+Infrastructure.Exceptions.Entities.GenericException
+ ---> Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|221_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|203_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ReadBusinessLayer.BrandsReadService.GetAll() in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ReadBusinessLayer\BrandsReadService.cs:line 31
+   at ProductsReadAPI.Controllers.BrandsController.Get() in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\Controllers\BrandsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 329
+    Routine: auth_failed
+   --- End of inner exception stack trace ---
+[22:56:20 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 20659.3699ms
+[22:59:54 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:59:54 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:59:54 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:59:54 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:59:54 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:59:54 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:59:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:59:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 1060.7430ms
+[22:59:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:59:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.1644ms
+[22:59:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:59:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.9046ms
+[22:59:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:59:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.0444ms
+[23:08:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[23:08:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:08:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:08:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:08:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:08:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:08:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:08:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:08:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 485.6808ms
+[23:08:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 10.9371ms
+[23:08:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:08:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.9028ms
+[23:08:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:08:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.8393ms
+[23:08:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:08:15 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:08:15 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[23:08:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 18.7865ms
+[23:09:42 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[23:09:43 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:09:43 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:09:43 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:09:43 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:09:43 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:09:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:09:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 482.5779ms
+[23:09:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:09:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.3779ms
+[23:09:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:09:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.0200ms
+[23:09:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:09:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 161.4456ms
+[23:09:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:09:54 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:09:54 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[23:09:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 25.5294ms
+[23:11:54 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:11:54 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:11:54 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:11:54 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:11:54 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:11:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:11:54 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[23:11:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 500 - text/html;+charset=utf-8 312.5754ms
+[23:11:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:11:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:11:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 10.3439ms
+[23:11:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.1204ms
+[23:11:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/favicon.ico - -
+[23:11:55 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[23:11:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/favicon.ico - - - 500 - text/plain;+charset=utf-8 4.2257ms
+[23:12:15 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:12:23 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:12:23 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:12:23 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:12:23 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:12:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:12:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:12:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.1950ms
+[23:12:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 451.3072ms
+[23:12:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:12:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.2132ms
+[23:12:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:12:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 192.7510ms
+[23:12:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:12:32 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:12:32 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions). 
+ 
+Exception GUID: b345f8c9-651e-43dc-925b-42d1b1f60b99
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[23:12:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 108.3332ms
+[23:13:27 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:13:27 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:13:27 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:13:27 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:13:27 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:13:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:13:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:13:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 474.4689ms
+[23:13:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.6051ms
+[23:13:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:13:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.6915ms
+[23:13:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:13:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.4355ms
+[23:13:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:13:34 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:13:34 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions). 
+ 
+Exception GUID: 0b790934-0b9d-4efc-9d49-7d6bf2f97266
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[23:13:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 108.0787ms
+[23:13:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:13:36 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:13:36 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions). 
+ 
+Exception GUID: 507624ed-84dd-48d7-b1b1-9faa1732521b
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[23:13:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 23.0366ms
+[23:13:53 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:13:53 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:13:53 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:13:53 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:13:53 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:13:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:13:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:13:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 509.4880ms
+[23:13:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 19.5394ms
+[23:13:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:13:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.7338ms
+[23:13:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:13:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.6338ms
+[23:13:58 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:13:58 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[23:13:58 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[23:14:02 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("78"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[23:14:02 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[23:14:02 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 4041.3073ms
+[23:14:02 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[23:14:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 4112.0320ms
+[23:14:31 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[23:14:31 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:14:31 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:14:31 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:14:31 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:14:31 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:14:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:14:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 476.1861ms
+[23:14:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:14:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.2385ms
+[23:14:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:14:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.0881ms
+[23:14:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:14:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 360.1040ms
+[23:14:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:14:36 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:14:36 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[23:14:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 22.1330ms
+[23:14:54 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:14:54 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:14:54 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:14:54 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:14:54 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:14:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:14:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:14:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.0368ms
+[23:14:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 510.8321ms
+[23:14:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:14:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.0397ms
+[23:14:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:14:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.4199ms
+[23:15:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:15:02 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:15:02 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions). 
+ 
+Exception GUID: 48868baf-127a-4219-8c5b-28f30badf38e
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[23:15:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 91.4244ms
+[23:15:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:15:04 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:15:04 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions). 
+ 
+Exception GUID: 8e8e7ed6-8253-4cd3-8051-6d4ddc531211
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[23:15:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 22.6362ms
+[23:15:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:15:12 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:15:12 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions). 
+ 
+Exception GUID: 49722f25-b226-43b9-a322-ee450ecc3c98
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[23:15:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 36.5708ms
+[23:15:13 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:15:13 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:15:13 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions). 
+ 
+Exception GUID: 545dfec4-5c76-4320-8cff-07e13539096a
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[23:15:13 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 19.9488ms
+[23:15:39 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[23:15:39 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:15:39 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:15:39 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:15:39 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:15:39 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:15:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:15:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:15:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 509.5408ms
+[23:15:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.7045ms
+[23:15:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:15:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.0614ms
+[23:15:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:15:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 199.4967ms
+[23:15:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:15:49 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:15:49 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[23:15:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 22.0518ms
+[23:18:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Brands - -
+[23:18:11 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:18:11 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[23:18:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Brands - - - 401 0 - 8.4872ms
+[23:18:20 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Brands - -
+[23:18:20 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:18:20 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[23:18:20 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Brands - - - 401 0 - 3.3099ms
+[23:45:32 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[23:45:32 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:45:32 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:45:32 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:45:32 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:45:32 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:45:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:45:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 477.1063ms
+[23:45:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:45:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.2597ms
+[23:45:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:45:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.3819ms
+[23:45:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:45:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.3116ms
+[23:45:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:45:37 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:45:37 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[23:45:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 19.0117ms
+[23:45:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:45:44 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[23:45:44 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "BasicAuthentication" was challenged.
+[23:45:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 2.9275ms
+[23:48:55 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[23:48:55 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:48:55 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:48:55 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:48:55 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:48:55 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:48:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:48:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:48:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.7822ms
+[23:48:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 478.7312ms
+[23:48:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:48:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.8648ms
+[23:48:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:48:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.6457ms
+[23:49:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:54:51 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[23:54:51 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:54:51 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:54:51 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:54:51 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:54:51 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:54:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:54:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 523.3023ms
+[23:54:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:54:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.0814ms
+[23:54:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:54:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.7590ms
+[23:54:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:54:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.4279ms
+[23:55:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:55:32 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[23:55:32 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[23:55:35 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("77"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[23:55:35 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[23:55:35 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 3708.6035ms
+[23:55:35 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[23:55:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 30920.9026ms
+[23:58:27 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[23:58:28 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[23:58:28 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[23:58:28 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:58:28 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:58:28 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[23:58:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[23:58:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[23:58:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 499.8258ms
+[23:58:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.7927ms
+[23:58:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[23:58:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.6021ms
+[23:58:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[23:58:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.8852ms
+[23:58:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[23:58:46 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[23:58:46 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[23:58:54 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("79"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[23:58:54 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[23:58:54 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 7915.1954ms
+[23:58:54 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[23:58:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 13038.3784ms

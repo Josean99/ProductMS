@@ -1,0 +1,844 @@
+[19:02:05 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:02:06 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:02:06 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:02:06 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:02:06 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:02:06 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:02:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:02:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger - -
+[19:02:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger - - - 0 - - 137.4339ms
+[19:02:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 642.9379ms
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - -
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui-bundle.js - -
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui-standalone-preset.js - -
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 17.5386ms
+[19:02:10 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/swagger-ui.css" was not modified
+[19:02:10 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/swagger-ui-bundle.js" was not modified
+[19:02:10 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/swagger-ui-standalone-preset.js" was not modified
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - - - 304 - text/css 30.3223ms
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 27.9931ms
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 18.2558ms
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 164.6962ms
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - -
+[19:02:10 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - - - 0 628 image/png 21.8679ms
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:02:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.8698ms
+[19:02:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:06:38 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:06:38 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:06:38 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:06:38 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:06:38 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:06:38 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:06:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger - -
+[19:06:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:06:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger - - - 0 - - 216.8594ms
+[19:06:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 576.1253ms
+[19:06:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:06:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:06:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 17.1016ms
+[19:06:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.7497ms
+[19:06:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - -
+[19:06:41 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[19:06:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - - - 0 628 image/png 21.6717ms
+[19:06:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:06:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.3914ms
+[19:06:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:07:16 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:07:16 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:07:16 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:07:16 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:07:16 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:07:16 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:07:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger - -
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger - - - 0 - - 152.5075ms
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 527.9245ms
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 10.1125ms
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.3657ms
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - -
+[19:07:19 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - - - 0 628 image/png 29.4915ms
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:07:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 151.2827ms
+[19:10:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:10:40 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:10:40 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:10:43 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("86"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:10:43 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:10:43 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 3709.6283ms
+[19:10:43 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:10:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 36707.8917ms
+[19:11:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Brands - -
+[19:11:32 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:11:32 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:11:33 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:11:33 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:11:33 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 732.0668ms
+[19:11:33 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:11:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 2433.1000ms
+[19:12:05 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:12:05 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:12:05 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:12:05 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:12:05 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:12:05 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:12:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:12:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 546.2305ms
+[19:12:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:12:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:12:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.4953ms
+[19:12:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.7015ms
+[19:12:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:12:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.3885ms
+[19:12:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Brands - -
+[19:12:50 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:12:50 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:12:54 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("93"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:12:54 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:12:54 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 3482.8488ms
+[19:12:54 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:12:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 5974.7381ms
+[19:14:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:14:36 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Error] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[19:14:36 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ IDX20803: Unable to obtain configuration from: 'System.String'. 
+ 
+Exception GUID: eecc5b4f-c7ae-41bf-9e55-ed7057818905
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[19:14:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 224.0601ms
+[19:14:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:14:49 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Error] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[19:14:49 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ IDX20803: Unable to obtain configuration from: 'System.String'. 
+ 
+Exception GUID: 35d49a83-d14d-455a-864b-d7227433762b
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[19:14:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 26.8691ms
+[19:14:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:15:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:15:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:15:00 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:15:00 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:15:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 41.1291ms
+[19:15:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:15:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 1552.6399ms
+[19:16:07 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:16:07 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:16:07 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:16:07 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:16:07 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:16:07 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:16:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:16:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 548.0681ms
+[19:16:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:16:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:16:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 15.8771ms
+[19:16:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.2257ms
+[19:16:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:16:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.3657ms
+[19:16:20 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:16:20 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Error] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[19:16:21 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ IDX20803: Unable to obtain configuration from: 'System.String'. 
+ 
+Exception GUID: 0433dcd2-0fdb-42b2-89ae-65c251454476
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[19:16:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 455.9581ms
+[19:16:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:16:38 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[19:16:38 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[19:16:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 23.1657ms
+[19:16:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:16:40 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[19:16:40 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[19:16:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 3.0970ms
+[19:16:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:16:51 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[19:16:51 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[19:16:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 1.2589ms
+[19:16:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:16:52 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[19:16:52 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[19:16:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 0.6940ms
+[19:17:27 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:17:28 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:17:28 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:17:28 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:17:28 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:17:28 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:17:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:17:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 497.0588ms
+[19:17:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:17:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:17:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 15.7574ms
+[19:17:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.7739ms
+[19:17:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:17:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.2289ms
+[19:17:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:17:43 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:17:43 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:17:46 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("85"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:17:46 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:17:46 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 2512.08ms
+[19:17:46 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:17:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 4606.8882ms
+[19:18:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:18:08 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:18:08 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:18:08 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:18:08 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:18:08 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 38.161ms
+[19:18:08 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:18:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 4899.2520ms
+[19:18:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:18:30 Infrastructure.Auth.BasicAuthenticationHandler [Information] "Basic" was not authenticated. Failure message: "Authentication failed: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters."
+[19:18:30 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[19:18:30 Infrastructure.Auth.BasicAuthenticationHandler [Information] AuthenticationScheme: "Basic" was challenged.
+[19:18:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 14367.2144ms
+[19:19:48 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:19:48 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:19:48 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:19:48 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:19:48 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:19:48 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:19:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:19:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 789.8431ms
+[19:19:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:19:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:19:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.2164ms
+[19:19:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.0699ms
+[19:19:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:19:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.9713ms
+[19:20:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:20:06 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:20:06 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:20:08 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("85"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:20:09 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:20:09 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 2660.7121ms
+[19:20:09 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:20:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 7194.1076ms
+[19:20:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:20:23 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:20:23 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:20:24 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:20:24 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:20:24 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 38.6825ms
+[19:20:24 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:20:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 2344.6678ms
+[19:20:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:20:37 Infrastructure.Auth.BasicAuthenticationHandler [Information] "Basic" was not authenticated. Failure message: "Authentication failed: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters."
+[19:20:37 Infrastructure.Auth.BasicAuthenticationHandler [Information] "Basic" was not authenticated. Failure message: "Authentication failed: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters."
+[19:20:37 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Error] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[19:20:37 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ IDX20803: Unable to obtain configuration from: 'System.String'. 
+ 
+Exception GUID: 0e27b3f5-553a-4830-9458-a273433feb18
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[19:20:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 5483.7307ms
+[19:21:47 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:21:48 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:21:48 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:21:48 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:21:48 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:21:48 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:21:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:21:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 486.3365ms
+[19:21:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:21:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.8844ms
+[19:21:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:21:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.5617ms
+[19:21:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:21:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.5740ms
+[19:21:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:22:10 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:22:10 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:22:12 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("85"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:22:12 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:22:12 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 2349.661ms
+[19:22:12 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:22:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 12837.2197ms
+[19:22:35 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[19:22:35 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[19:22:35 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[19:22:35 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[19:22:35 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[19:22:35 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[19:22:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[19:22:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 464.0250ms
+[19:22:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[19:22:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[19:22:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.4684ms
+[19:22:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.5044ms
+[19:22:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[19:22:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.3127ms
+[19:22:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:23:29 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:23:29 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:23:31 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("83"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:23:31 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:23:31 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 2318.0186ms
+[19:23:31 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:23:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 39167.2556ms
+[19:23:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:23:48 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:23:48 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.BrandsController" ("ProductsReadAPI").
+[19:23:48 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT b.\"Id\", b.\"Description\", b.\"FechaBaja\", b.\"IdImage\", b.\"Name\"
+FROM \"Brands\" AS b"
+[19:23:48 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.BrandResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[19:23:48 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)" in 41.069ms
+[19:23:48 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.BrandsController.Get (ProductsReadAPI)"'
+[19:23:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 200 - application/json;+charset=utf-8 1236.4655ms
+[19:23:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[19:23:54 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Error] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[19:23:54 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ IDX20803: Unable to obtain configuration from: 'System.String'. 
+ 
+Exception GUID: abc0cbc4-1a14-4c5d-a545-2afbc2a5658b
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[19:23:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 500 - application/json 172.1253ms
+[21:39:36 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:39:36 Microsoft.AspNetCore.Hosting.Diagnostics [Fatal] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.AspNetCore.Authentication.AuthenticationBuilder.<>c__DisplayClass4_0`2.<AddSchemeHelper>b__0(AuthenticationOptions o)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__27_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+[21:40:24 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:40:25 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:40:25 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:40:25 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:40:25 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:40:25 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:40:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:40:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 681.6840ms
+[21:40:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:40:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:40:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 10.8959ms
+[21:40:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.2290ms
+[21:40:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:40:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.6029ms
+[21:40:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[21:40:36 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[21:40:36 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[21:40:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 116.5952ms
+[21:41:03 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:41:04 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:41:04 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:41:04 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:41:04 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:41:04 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:41:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:41:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 493.3599ms
+[21:41:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:41:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:41:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.7791ms
+[21:41:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.8877ms
+[21:41:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:41:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.6491ms
+[21:41:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[21:41:30 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:41:30 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[21:41:33 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("76"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[21:41:33 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[21:41:33 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2395.8427ms
+[21:41:33 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:41:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2531.5215ms
+[21:41:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Brands - -
+[21:41:38 Microsoft.AspNetCore.Authorization.DefaultAuthorizationService [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+[21:41:38 Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Information] AuthenticationScheme: "Bearer" was challenged.
+[21:41:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Brands - - - 401 0 - 16.8694ms
+[21:42:33 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:42:33 Microsoft.AspNetCore.Hosting.Diagnostics [Fatal] Application startup exception
+System.InvalidOperationException: Scheme already exists: Basic
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.AspNetCore.Authentication.AuthenticationBuilder.<>c__DisplayClass4_0`2.<AddSchemeHelper>b__0(AuthenticationOptions o)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__27_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+[21:42:48 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:42:49 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:42:49 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:42:49 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:42:49 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:42:49 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:42:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:42:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 473.1818ms
+[21:42:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:42:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:42:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 11.7548ms
+[21:42:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.8574ms
+[21:42:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:42:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.2740ms
+[21:43:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[21:43:01 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:43:01 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[21:43:03 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("74"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[21:43:03 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[21:43:03 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2637.7678ms
+[21:43:03 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:43:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2768.7119ms
+[21:43:33 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:43:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:43:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:43:34 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:43:34 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:43:34 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:43:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:43:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 517.7553ms
+[21:43:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:43:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:43:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.4864ms
+[21:43:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.6222ms
+[21:43:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:43:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.6430ms
+[21:43:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories - -
+[21:43:45 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:43:45 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[21:43:47 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("86"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[21:43:47 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[21:43:47 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2392.2951ms
+[21:43:47 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:43:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2530.1700ms
+[21:44:15 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:44:33 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:44:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:44:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:44:34 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:44:34 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:44:34 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:44:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:44:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 485.9022ms
+[21:44:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:44:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:44:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.4460ms
+[21:44:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9721ms
+[21:44:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:44:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.8771ms
+[21:45:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[21:45:26 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:45:26 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[21:45:28 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("72"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[21:45:28 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[21:45:28 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2364.3274ms
+[21:45:28 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:45:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2537.3014ms
+[21:45:53 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:45:53 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:45:53 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:45:53 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:45:53 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:45:53 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:45:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:45:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 1197.7332ms
+[21:45:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:45:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.2533ms
+[21:45:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:45:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.0192ms
+[21:45:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:45:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.3567ms
+[21:45:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[21:46:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:46:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[21:46:02 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("84"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[21:46:02 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[21:46:02 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2442.5029ms
+[21:46:02 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:46:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2644.2518ms
+[21:46:42 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:46:42 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:46:42 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:46:42 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:46:42 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:46:42 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:46:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:46:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 518.7081ms
+[21:46:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:46:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:46:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 21.1628ms
+[21:46:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.4743ms
+[21:46:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:46:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.5179ms
+[21:46:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[21:46:50 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:46:50 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[21:46:52 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("84"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[21:46:52 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[21:46:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2435.498ms
+[21:46:52 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:46:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2735.8782ms
+[21:51:06 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:51:07 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:51:07 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:51:07 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:51:07 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:51:07 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:51:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:51:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 473.2517ms
+[21:51:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:51:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:51:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 16.4484ms
+[21:51:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.1527ms
+[21:51:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:51:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.7961ms
+[21:51:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[21:51:48 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:51:48 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:51:48 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:51:48 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:51:48 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:51:48 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:51:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:51:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 500.0631ms
+[21:51:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:51:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:51:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 7.6231ms
+[21:51:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.8784ms
+[21:51:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:51:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.5946ms
+[21:51:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[21:52:01 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:52:01 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[21:52:04 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("83"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[21:52:04 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[21:52:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2276.9733ms
+[21:52:04 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:52:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 9423.8567ms
+[21:52:33 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:52:33 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:52:33 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:52:33 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:52:33 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:52:33 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:52:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:52:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 483.6521ms
+[21:52:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:52:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:52:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 13.1714ms
+[21:52:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.1616ms
+[21:52:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:52:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.8289ms
+[21:52:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[21:52:44 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:52:44 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[21:52:46 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("76"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[21:52:46 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[21:52:46 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2363.5017ms
+[21:52:46 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:52:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 6030.5192ms
+[21:54:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[21:55:33 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:55:33 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[21:55:33 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[21:55:33 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:55:33 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:55:33 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[21:55:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[21:55:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 642.1663ms
+[21:55:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[21:55:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[21:55:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 15.6744ms
+[21:55:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.1207ms
+[21:55:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[21:55:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.9726ms
+[21:59:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[21:59:36 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:59:36 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[21:59:38 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("74"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[21:59:38 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[21:59:38 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2342.0389ms
+[21:59:38 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[21:59:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2402.3405ms
+[22:00:17 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:00:18 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:00:18 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:00:18 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:00:18 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:00:18 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:00:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:00:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 449.4352ms
+[22:00:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:00:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:00:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 11.5761ms
+[22:00:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.2307ms
+[22:00:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:00:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.7255ms
+[22:00:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[22:00:25 Infrastructure.Auth.BasicAuthenticationHandler [Information] "BasicAuthentication" was not authenticated. Failure message: "Authentication failed: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters."
+[22:00:25 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:00:25 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[22:00:27 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("73"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[22:00:27 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[22:00:27 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2273.4484ms
+[22:00:27 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:00:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 6345.9886ms
+[22:00:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[22:00:57 Infrastructure.Auth.BasicAuthenticationHandler [Information] "BasicAuthentication" was not authenticated. Failure message: "Authentication failed: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters."
+[22:00:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:00:57 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[22:00:57 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[22:00:57 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[22:00:57 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 39.8876ms
+[22:00:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:00:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 3965.6558ms
+[22:01:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[22:01:07 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:01:07 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[22:01:07 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[22:01:07 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[22:01:07 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 12.4605ms
+[22:01:07 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:01:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2235.0379ms
+[22:03:46 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:03:47 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:03:47 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:03:47 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:03:47 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:03:47 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:03:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:03:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 487.1290ms
+[22:03:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:03:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:03:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 14.4446ms
+[22:03:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.3388ms
+[22:03:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:03:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.9658ms
+[22:03:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[22:03:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:03:57 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[22:03:59 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("73"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[22:03:59 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[22:03:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2287.4646ms
+[22:03:59 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:03:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 5146.0412ms
+[22:04:52 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Josean\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:04:52 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[22:04:52 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[22:04:52 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:04:52 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:04:52 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\"
+[22:04:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[22:04:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 462.2157ms
+[22:04:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[22:04:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[22:04:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.9156ms
+[22:04:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.3325ms
+[22:04:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[22:04:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.5286ms
+[22:05:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[22:05:05 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:05:05 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[22:05:07 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("92"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[22:05:08 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[22:05:08 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 2441.4739ms
+[22:05:08 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:05:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 5894.6960ms
+[22:05:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET https://localhost:7041/api/Categories - -
+[22:05:15 Infrastructure.Auth.BasicAuthenticationHandler [Information] "BasicAuthentication" was not authenticated. Failure message: "Authentication failed: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters."
+[22:05:15 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:05:15 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "ProductsReadAPI.Controllers.CategoriesController" ("ProductsReadAPI").
+[22:05:15 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c"
+[22:05:15 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[22:05:15 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)" in 42.1274ms
+[22:05:15 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"ProductsReadAPI.Controllers.CategoriesController.Get (ProductsReadAPI)"'
+[22:05:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET https://localhost:7041/api/Categories - - - 200 - application/json;+charset=utf-8 2573.9472ms

@@ -1,0 +1,144 @@
+[20:21:01 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[20:21:01 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[20:21:01 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[20:21:01 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[20:21:01 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[20:22:20 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[20:22:20 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[20:22:20 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[20:22:20 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[20:22:20 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[20:25:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[20:25:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[20:25:34 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[20:25:34 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[20:25:34 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[20:25:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger - -
+[20:25:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger - - - 301 0 - 242.0448ms
+[20:25:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[20:25:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 819.9091ms
+[20:25:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - -
+[20:25:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui-bundle.js - -
+[20:25:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui-standalone-preset.js - -
+[20:25:38 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[20:25:38 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[20:25:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - - - 200 143632 text/css 129.0112ms
+[20:25:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 83.7744ms
+[20:25:38 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[20:25:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 138.1788ms
+[20:25:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[20:25:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.8591ms
+[20:25:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[20:25:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.9232ms
+[20:25:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[20:25:39 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[20:25:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 200 628 image/png 1.2047ms
+[20:25:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[20:25:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.0453ms
+[22:02:57 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:02:57 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:02:57 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:02:57 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:02:57 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:03:28 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:03:28 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:03:28 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:03:28 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:03:28 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:03:44 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:03:44 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:03:44 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:03:44 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:03:44 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:04:12 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:04:12 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:04:12 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:04:12 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:04:12 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:04:37 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:04:37 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:04:37 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:04:37 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:04:37 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:04:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[22:04:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[22:04:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.3193ms
+[22:04:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 458.2841ms
+[22:04:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[22:04:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.6438ms
+[22:04:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[22:04:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.2325ms
+[22:04:54 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:04:54 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:04:54 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:04:54 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:04:54 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:05:33 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:05:33 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:05:33 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:05:33 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:05:33 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger - -
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger - - - 301 0 - 135.8229ms
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - -
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui-standalone-preset.js - -
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui-bundle.js - -
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 400.0631ms
+[22:05:35 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - - - 200 143632 text/css 68.0965ms
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[22:05:35 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 86.8563ms
+[22:05:35 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 92.9150ms
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 11.6273ms
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.8196ms
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[22:05:35 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[22:05:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 200 628 image/png 0.9993ms
+[22:05:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 152.0947ms
+[22:06:11 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:06:11 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:06:11 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:06:11 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:06:11 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:07:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:07:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:07:36 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:07:36 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:07:36 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:07:51 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:07:51 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:07:51 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:07:51 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:07:51 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"
+[22:07:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger - -
+[22:07:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[22:07:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger - - - 301 0 - 108.2259ms
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 305.3978ms
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui-bundle.js - -
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - -
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui-standalone-preset.js - -
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 10.4243ms
+[22:07:57 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[22:07:57 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - - - 200 143632 text/css 60.9092ms
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 60.6318ms
+[22:07:57 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 75.4458ms
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 75.0622ms
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[22:07:57 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 200 628 image/png 0.8957ms
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[22:07:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.2559ms
+[22:08:30 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[22:08:30 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[22:08:30 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[22:08:30 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[22:08:30 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\"

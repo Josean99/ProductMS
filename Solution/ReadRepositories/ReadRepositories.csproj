@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Base\BaseReadRepository2.cs" />
+    <Compile Remove="BrandsReadRepository.cs" />
+    <Compile Remove="ImagesReadRepository.cs" />
+    <Compile Remove="ProductsImagesReadRepository.cs" />
+    <Compile Remove="ProductsReadRepository.cs" />
+    <Compile Remove="TextsReadRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DBContext\DBContext.csproj" />
+    <ProjectReference Include="..\IReadRepositories\IReadRepositories.csproj" />
+  </ItemGroup>
+
+</Project>

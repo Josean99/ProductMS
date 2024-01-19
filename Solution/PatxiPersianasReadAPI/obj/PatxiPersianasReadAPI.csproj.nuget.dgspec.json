@@ -1,0 +1,1033 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\PatxiPersianasReadAPI\\PatxiPersianasReadAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\BusinessLayer\\WriteBusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\BusinessLayer\\WriteBusinessLayer.csproj",
+        "projectName": "WriteBusinessLayer",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\BusinessLayer\\WriteBusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\IWriteBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\IWriteBusinessLayer.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\DBContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\DBContext.csproj",
+        "projectName": "DBContext",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\DBContext.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj",
+        "projectName": "EntityService",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\IWriteBusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\IWriteBusinessLayer.csproj",
+        "projectName": "IWriteBusinessLayer",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\IWriteBusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure.Register\\Infrastructure.Register.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure.Register\\Infrastructure.Register.csproj",
+        "projectName": "Infrastructure.Register",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure.Register\\Infrastructure.Register.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure.Register\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\BusinessLayer\\WriteBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\BusinessLayer\\WriteBusinessLayer.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\IWriteBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\IWriteBusinessLayer.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\IReadBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\IReadBusinessLayer.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadBusinessLayer\\ReadBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadBusinessLayer\\ReadBusinessLayer.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadRepositories\\ReadRepositories.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadRepositories\\ReadRepositories.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\WriteRepository\\WriteRepository.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\WriteRepository\\WriteRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\IReadBusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\IReadBusinessLayer.csproj",
+        "projectName": "IReadBusinessLayer",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\IReadBusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj",
+        "projectName": "IReadRepositories",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj",
+        "projectName": "IWriteRepository",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\DBContext.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\DBContext.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\PatxiPersianasReadAPI\\PatxiPersianasReadAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\PatxiPersianasReadAPI\\PatxiPersianasReadAPI.csproj",
+        "projectName": "PatxiPersianasReadAPI",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\PatxiPersianasReadAPI\\PatxiPersianasReadAPI.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\PatxiPersianasReadAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\BusinessLayer\\WriteBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\BusinessLayer\\WriteBusinessLayer.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\IWriteBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IBusinessLayer\\IWriteBusinessLayer.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure.Register\\Infrastructure.Register.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure.Register\\Infrastructure.Register.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\Infrastructure\\Infrastructure.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\IReadBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\IReadBusinessLayer.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadRepositories\\ReadRepositories.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadRepositories\\ReadRepositories.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\WriteRepository\\WriteRepository.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\WriteRepository\\WriteRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadBusinessLayer\\ReadBusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadBusinessLayer\\ReadBusinessLayer.csproj",
+        "projectName": "ReadBusinessLayer",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadBusinessLayer\\ReadBusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadBusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DTOs\\DTOs.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\IReadBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadBusinessLayer\\IReadBusinessLayer.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadRepositories\\ReadRepositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadRepositories\\ReadRepositories.csproj",
+        "projectName": "ReadRepositories",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadRepositories\\ReadRepositories.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\ReadRepositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\DBContext.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\DBContext.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IReadRepositories\\IReadRepositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\WriteRepository\\WriteRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\WriteRepository\\WriteRepository.csproj",
+        "projectName": "WriteRepository",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\WriteRepository\\WriteRepository.csproj",
+        "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\WriteRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\DBContext.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\DBContext\\DBContext.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\EntityService\\EntityService.csproj"
+              },
+              "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\IWriteRepository\\IWriteRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

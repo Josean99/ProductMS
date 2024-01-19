@@ -1,0 +1,12 @@
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\bin\Debug\net6.0\ExternalServices.deps.json
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\bin\Debug\net6.0\ExternalServices.dll
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\bin\Debug\net6.0\ExternalServices.pdb
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\obj\Debug\net6.0\ExternalServices.csproj.AssemblyReference.cache
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\obj\Debug\net6.0\ExternalServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\obj\Debug\net6.0\ExternalServices.AssemblyInfoInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\obj\Debug\net6.0\ExternalServices.AssemblyInfo.cs
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\obj\Debug\net6.0\ExternalServices.csproj.CoreCompileInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\obj\Debug\net6.0\ExternalServices.dll
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\obj\Debug\net6.0\refint\ExternalServices.dll
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\obj\Debug\net6.0\ExternalServices.pdb
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\ExternalServices\obj\Debug\net6.0\ref\ExternalServices.dll

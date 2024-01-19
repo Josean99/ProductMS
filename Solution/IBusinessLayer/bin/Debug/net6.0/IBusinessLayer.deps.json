@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "IBusinessLayer/1.0.0": {
+        "dependencies": {
+          "DTOs": "1.0.0",
+          "EntityService": "1.0.0"
+        },
+        "runtime": {
+          "IBusinessLayer.dll": {}
+        }
+      },
+      "DTOs/1.0.0": {
+        "dependencies": {
+          "EntityService": "1.0.0"
+        },
+        "runtime": {
+          "DTOs.dll": {}
+        }
+      },
+      "EntityService/1.0.0": {
+        "runtime": {
+          "EntityService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IBusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
