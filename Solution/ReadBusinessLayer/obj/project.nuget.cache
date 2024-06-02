@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sn8eq0+ha9kVUz5LRjy6GD3gXmestHVcNs1T3b7WD06tHOzxXsMIEMA6LuDOwXDRBcLlaD/YuXZZYUgp1FzfAw==",
+  "dgSpecHash": "q0oYXVx3gqz1JXEP7oiVR2l/OH41dUqSzGIbet1UdNPC2daLRfJkzM1/B+Fr7C7GeoMFMsDsGZUADNavfMlTVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ReadBusinessLayer\\ReadBusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ReadBusinessLayer\\ReadBusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Josean\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Josean\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",

@@ -212,11 +212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\ExternalServices.csproj",
+      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\ExternalServices.csproj",
       "projectName": "ExternalServices",
-      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\ExternalServices.csproj",
+      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\ExternalServices.csproj",
       "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\obj\\",
+      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",

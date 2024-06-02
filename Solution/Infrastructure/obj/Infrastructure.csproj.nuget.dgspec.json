@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\ExternalServices.csproj": {
+    "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\ExternalServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\ExternalServices.csproj",
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\ExternalServices.csproj",
         "projectName": "ExternalServices",
-        "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\ExternalServices.csproj",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\ExternalServices.csproj",
         "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\obj\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\ExternalServices.csproj": {
-                "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\ExternalServices.csproj"
+              "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\ExternalServices.csproj": {
+                "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\ExternalServices.csproj"
               }
             }
           }
@@ -122,6 +122,10 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "Serilog": {
               "target": "Package",

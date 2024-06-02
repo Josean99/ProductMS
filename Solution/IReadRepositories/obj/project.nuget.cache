@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vxBVJV2zNyvKsjHlzkobpiwNy6Gw7IAJkaoEa97Qj5hj2+vTvnJfjHVURqmnnqzikuW8w6R9wyWLcNGk0knKmQ==",
+  "dgSpecHash": "v2TojnWv6fdCWhwwD6VVP+GQUk/2q/oRYO8fKEF37v9ABjmqy32JJYqyh7p648aA0/+05KTthWfoEbmKn93wTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadRepositories\\IReadRepositories.csproj",
+  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IReadRepositories\\IReadRepositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Josean\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512"
   ],

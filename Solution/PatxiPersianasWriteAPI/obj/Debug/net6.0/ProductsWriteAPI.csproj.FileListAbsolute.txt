@@ -653,3 +653,10 @@ C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\obj\D
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ProductsWriteAPI.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ProductsWriteAPI.genruntimeconfig.cache
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ref\ProductsWriteAPI.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ProductsWriteAPI.csproj.AssemblyReference.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ProductsWriteAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ProductsWriteAPI.AssemblyInfoInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ProductsWriteAPI.AssemblyInfo.cs
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ProductsWriteAPI.csproj.CoreCompileInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ProductsWriteAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasWriteAPI\obj\Debug\net6.0\ProductsWriteAPI.MvcApplicationPartsAssemblyInfo.cache

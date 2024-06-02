@@ -983,11 +983,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ReadBusinessLayer\\ReadBusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ReadBusinessLayer\\ReadBusinessLayer.csproj",
       "projectName": "ReadBusinessLayer",
-      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ReadBusinessLayer\\ReadBusinessLayer.csproj",
+      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ReadBusinessLayer\\ReadBusinessLayer.csproj",
       "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ReadBusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ReadBusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1005,17 +1005,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DTOs\\DTOs.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DTOs\\DTOs.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\DTOs\\DTOs.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\DTOs\\DTOs.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadBusinessLayer\\IReadBusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadBusinessLayer\\IReadBusinessLayer.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IReadBusinessLayer\\IReadBusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IReadBusinessLayer\\IReadBusinessLayer.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadRepositories\\IReadRepositories.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadRepositories\\IReadRepositories.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IReadRepositories\\IReadRepositories.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IReadRepositories\\IReadRepositories.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IWriteRepository\\IWriteRepository.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IWriteRepository\\IWriteRepository.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IWriteRepository\\IWriteRepository.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IWriteRepository\\IWriteRepository.csproj"
             }
           }
         }

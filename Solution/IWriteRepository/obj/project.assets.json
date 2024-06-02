@@ -797,11 +797,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IWriteRepository\\IWriteRepository.csproj",
+      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IWriteRepository\\IWriteRepository.csproj",
       "projectName": "IWriteRepository",
-      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IWriteRepository\\IWriteRepository.csproj",
+      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IWriteRepository\\IWriteRepository.csproj",
       "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IWriteRepository\\obj\\",
+      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IWriteRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -819,11 +819,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DBContext\\DBContext.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DBContext\\DBContext.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\DBContext\\DBContext.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\DBContext\\DBContext.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\EntityService\\EntityService.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\EntityService\\EntityService.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\EntityService\\EntityService.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\EntityService\\EntityService.csproj"
             }
           }
         }

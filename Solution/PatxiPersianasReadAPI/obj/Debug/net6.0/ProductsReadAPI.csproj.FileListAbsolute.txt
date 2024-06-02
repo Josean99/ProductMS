@@ -189,3 +189,13 @@ C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\obj\De
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.genruntimeconfig.cache
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ref\ProductsReadAPI.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.csproj.AssemblyReference.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.AssemblyInfoInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.AssemblyInfo.cs
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.csproj.CoreCompileInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\refint\ProductsReadAPI.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\PatxiPersianasReadAPI\obj\Debug\net6.0\ProductsReadAPI.pdb

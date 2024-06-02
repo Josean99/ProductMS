@@ -2094,6 +2094,23 @@
           }
         }
       },
+      "RabbitMQ.Client/6.8.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -3902,6 +3919,22 @@
           "lib/netstandard1.3/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4092,6 +4125,7 @@
           "ExternalServices": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "RabbitMQ.Client": "6.8.1",
           "Serilog": "2.12.0",
           "Serilog.AspNetCore": "7.0.0",
           "Serilog.Sinks.File": "5.0.0"
@@ -7089,6 +7123,23 @@
         "lib/netstandard2.0/NuGet.Versioning.xml",
         "nuget.versioning.6.3.1.nupkg.sha512",
         "nuget.versioning.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/6.8.1": {
+      "sha512": "jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "type": "package",
+      "path": "rabbitmq.client/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/RabbitMQ.Client.dll",
+        "lib/net462/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.8.1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -11107,6 +11158,35 @@
         "system.threading.nuspec"
       ]
     },
+    "System.Threading.Channels/7.0.0": {
+      "sha512": "qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
+      "type": "package",
+      "path": "system.threading.channels/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.Channels.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "lib/net462/System.Threading.Channels.dll",
+        "lib/net462/System.Threading.Channels.xml",
+        "lib/net6.0/System.Threading.Channels.dll",
+        "lib/net6.0/System.Threading.Channels.xml",
+        "lib/net7.0/System.Threading.Channels.dll",
+        "lib/net7.0/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.7.0.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Threading.Tasks/4.3.0": {
       "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
@@ -11555,11 +11635,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\PatxiPersianasWriteAPI\\ProductsWriteAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\PatxiPersianasWriteAPI\\ProductsWriteAPI.csproj",
       "projectName": "ProductsWriteAPI",
-      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\PatxiPersianasWriteAPI\\ProductsWriteAPI.csproj",
+      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\PatxiPersianasWriteAPI\\ProductsWriteAPI.csproj",
       "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\PatxiPersianasWriteAPI\\obj\\",
+      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\PatxiPersianasWriteAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11577,29 +11657,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\BusinessLayer\\WriteBusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\BusinessLayer\\WriteBusinessLayer.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\BusinessLayer\\WriteBusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\BusinessLayer\\WriteBusinessLayer.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DBContext\\DBContext.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DBContext\\DBContext.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\DBContext\\DBContext.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\DBContext\\DBContext.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DTOs\\DTOs.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\DTOs\\DTOs.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\DTOs\\DTOs.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\DTOs\\DTOs.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure.Register\\Infrastructure.Register.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure.Register\\Infrastructure.Register.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\Infrastructure.Register\\Infrastructure.Register.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\Infrastructure.Register\\Infrastructure.Register.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IWriteRepository\\IWriteRepository.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IWriteRepository\\IWriteRepository.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IWriteRepository\\IWriteRepository.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IWriteRepository\\IWriteRepository.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ReadRepositories\\ReadRepositories.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ReadRepositories\\ReadRepositories.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ReadRepositories\\ReadRepositories.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ReadRepositories\\ReadRepositories.csproj"
             },
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\WriteRepository\\WriteRepository.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\WriteRepository\\WriteRepository.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\WriteRepository\\WriteRepository.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\WriteRepository\\WriteRepository.csproj"
             }
           }
         }

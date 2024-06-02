@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6athrNrSq8qSTQ+cxyFiHyve/8yE28gg+uE8xKxj2JFKwUv7gCXEkpC11niqDDY3OhdwRqHUMeYGEF+P2rlNXg==",
+  "dgSpecHash": "vEE3o0X2O/APGBpNqxWSWlnSuLxnlGj59RMPOFOr8mtRwK95JE+E/lOUee3F1XAKbq16lLB5xeOMxF5nVttLOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ExternalServices\\ExternalServices.csproj",
+  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ExternalServices\\ExternalServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Josean\\.nuget\\packages\\jwtdtos\\1.0.1\\jwtdtos.1.0.1.nupkg.sha512",
     "C:\\Users\\Josean\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

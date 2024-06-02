@@ -373,3 +373,12 @@ C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Test.Unit\obj\Debug\net6.0\r
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Test.Unit\obj\Debug\net6.0\Test.Unit.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Test.Unit\obj\Debug\net6.0\Test.Unit.genruntimeconfig.cache
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Test.Unit\obj\Debug\net6.0\ref\Test.Unit.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Unit\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Unit\obj\Debug\net6.0\Test.Unit.csproj.AssemblyReference.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Unit\obj\Debug\net6.0\Test.Unit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Unit\obj\Debug\net6.0\Test.Unit.AssemblyInfoInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Unit\obj\Debug\net6.0\Test.Unit.AssemblyInfo.cs
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Unit\obj\Debug\net6.0\Test.Unit.csproj.CoreCompileInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Unit\obj\Debug\net6.0\Test.Unit.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Unit\obj\Debug\net6.0\refint\Test.Unit.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Unit\obj\Debug\net6.0\Test.Unit.pdb

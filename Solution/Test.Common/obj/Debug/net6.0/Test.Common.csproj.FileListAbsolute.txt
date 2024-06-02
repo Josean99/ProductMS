@@ -36,3 +36,11 @@ C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Test.Common\obj\Debug\net6.0
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Test.Common\obj\Debug\net6.0\refint\Test.Common.dll
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Test.Common\obj\Debug\net6.0\Test.Common.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\Test.Common\obj\Debug\net6.0\ref\Test.Common.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Common\obj\Debug\net6.0\Test.Common.csproj.AssemblyReference.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Common\obj\Debug\net6.0\Test.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Common\obj\Debug\net6.0\Test.Common.AssemblyInfoInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Common\obj\Debug\net6.0\Test.Common.AssemblyInfo.cs
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Common\obj\Debug\net6.0\Test.Common.csproj.CoreCompileInputs.cache
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Common\obj\Debug\net6.0\Test.Common.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Common\obj\Debug\net6.0\refint\Test.Common.dll
+C:\Users\Josean\Desktop\Fuentes\ProductMS\Solution\Test.Common\obj\Debug\net6.0\Test.Common.pdb

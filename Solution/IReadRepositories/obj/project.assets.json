@@ -71,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadRepositories\\IReadRepositories.csproj",
+      "projectUniqueName": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IReadRepositories\\IReadRepositories.csproj",
       "projectName": "IReadRepositories",
-      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadRepositories\\IReadRepositories.csproj",
+      "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IReadRepositories\\IReadRepositories.csproj",
       "packagesPath": "C:\\Users\\Josean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadRepositories\\obj\\",
+      "outputPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\IReadRepositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Josean\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\EntityService\\EntityService.csproj": {
-              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\EntityService\\EntityService.csproj"
+            "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\EntityService\\EntityService.csproj": {
+              "projectPath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\EntityService\\EntityService.csproj"
             }
           }
         }

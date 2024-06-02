@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/JPROawtRbpOTeeO0K7lq1TeRSou9DMaeiCKkQeg+GtHiqngv7/Sc1nJxgE+1t35QufvmvkTUZ7mO0taAujIww==",
+  "dgSpecHash": "RsXZ2VrivVqFe7K4zZoBUvz6fO3bH/yHsLQVfzVuglC9cCOewsFNocuwD6mXth8vV0eWc3d4Fe9FwqQkqrhayQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\ReadRepositories\\ReadRepositories.csproj",
+  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductMS\\Solution\\ReadRepositories\\ReadRepositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Josean\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\Josean\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
