@@ -19,13 +19,13 @@ builder.Services.AddDbContext<ProductMSReadAPIContext>(options =>
 builder.Services.RegisterExceptionPolicies();
 
 // REGISTER VALIDATORS, REPOSITORIES AND SERVICES.
-builder.Services.RegisterValidators().RegisterRepositories().RegisterServices();
+builder.Services.RegisterReadRepositories().RegisterReadServices();
 
 ////REGISTER LOGGING
 builder.Logging.RegisterLogging(builder.Configuration);
 
 //Automapper
-builder.Services.AddAutoMapper(typeof(BrandsMapperProfile));
+builder.Services.AddAutoMapper(typeof(BrandsMapperProfile).Assembly);
 
 //Memory Cache
 builder.Services.AddMemoryCache();
@@ -33,6 +33,8 @@ builder.Services.AddMemoryCache();
 builder.Services.AddControllers();
 
 //var authority = builder.Configuration.GetSection("Authority:ClientId").Value;
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.RegisterAuthentication();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -54,7 +56,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseMiddleware<ExceptionHandlingMiddleware>();
-
+                    
 app.UseHttpsRedirection();
 
 app.UseAuthentication();

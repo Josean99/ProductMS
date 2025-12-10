@@ -48,23 +48,24 @@ namespace Infrastructure
             return services;
         }
 
-        public static IServiceCollection RegisterRepositories(this IServiceCollection services)
+        public static IServiceCollection RegisterReadRepositories(this IServiceCollection services)
         {
-            services.AddScoped(typeof(IBaseWriteRepository<>), typeof(BaseWriteRepository<>));
             services.AddScoped<IBaseReadRepository, BaseReadRepository>();
             services.AddScoped<ICategoriesReadRepository, CategoriesReadRepository>();
 
             return services;
         }
 
-        public static IServiceCollection RegisterServices(this IServiceCollection services)
+        public static IServiceCollection RegisterWriteRepositories(this IServiceCollection services)
         {
-            services.AddScoped<IBrandsWriteService, BrandsWriteService>();
-            services.AddScoped<ICategoriesWriteService, CategoriesWriteService>();
-            services.AddScoped<IImagesWriteService, ImagesWriteService>();
-            services.AddScoped<IProductsWriteService, ProductsWriteService>();
-            services.AddScoped<ITextsWriteService, TextsWriteService>();
+            services.AddScoped<IBaseReadRepository, BaseReadRepository>();
+            services.AddScoped(typeof(IBaseWriteRepository<>), typeof(BaseWriteRepository<>));
 
+            return services;
+        }
+
+        public static IServiceCollection RegisterReadServices(this IServiceCollection services)
+        {
             services.AddScoped<IBrandsReadService, BrandsReadService>();
             services.AddScoped<ICategoriesReadService, CategoriesReadService>();
             services.AddScoped<IImagesReadService, ImagesReadService>();
@@ -76,22 +77,20 @@ namespace Infrastructure
             return services;
         }
 
-        public static IServiceCollection RegisterValidators(this IServiceCollection services)
+        public static IServiceCollection RegisterWriteServices(this IServiceCollection services)
         {
-            services.AddFluentValidationAutoValidation();
-            services.AddFluentValidationClientsideAdapters();
+            services.AddScoped<IBrandsWriteService, BrandsWriteService>();
+            services.AddScoped<ICategoriesWriteService, CategoriesWriteService>();
+            services.AddScoped<IImagesWriteService, ImagesWriteService>();
+            services.AddScoped<IProductsWriteService, ProductsWriteService>();
+            services.AddScoped<ITextsWriteService, TextsWriteService>();
 
-            services.AddScoped<IValidator<Brand>, BrandValidator>();
-            services.AddScoped<IValidator<Category>, CategoryValidator>();
-            services.AddScoped<IValidator<Image>, ImageValidator>();
-            services.AddScoped<IValidator<Product>, ProductValidator>();
-            services.AddScoped<IValidator<ProductImage>, ProductImageValidator>();
-            services.AddScoped<IValidator<Text>, TextValidator>();
+            services.AddScoped<IJwtService, JwtService>();
 
             return services;
         }
 
-        public static IServiceCollection RegisterMappers(this IServiceCollection services)
+        public static IServiceCollection RegisterValidators(this IServiceCollection services)
         {
             services.AddFluentValidationAutoValidation();
             services.AddFluentValidationClientsideAdapters();

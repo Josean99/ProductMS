@@ -1,0 +1,33 @@
+version: "3.9"
+services:
+
+    write-api:
+        container_name: product-writeAPI-container
+        build: ./
+        restart: always
+        ports: 
+            - "5003:80"
+        environment:
+            - ASPNETCORE_ENVIRONMENT=DockDevelopeerStaging
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
+        depends_on:
+              db:
+                condition: service_healthy
+    db:
+        image: postgres
+        restart: always
+        environment:
+          PGUSER: postgres
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: user
+          POSTGRES_DB: ProductMS
+        ports:
+            - "6433:5432"
+        volumes:
+            - ./../database:/docker-entrypoint-initdb.d
+        healthcheck:
+            test: ["CMD-SHELL", "pg_isready"]
+            interval: 1s
+            timeout: 5s
+            retries: 5

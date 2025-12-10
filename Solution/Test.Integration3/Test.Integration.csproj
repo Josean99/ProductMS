@@ -27,7 +27,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DBContext\DBContext.csproj" />
     <ProjectReference Include="..\DTOs\DTOs.csproj" />
-    <ProjectReference Include="..\PatxiPersianasWriteAPI\ProductsWriteAPI.csproj" />
+    <ProjectReference Include="..\ProductsWriteAPI\ProductsWriteAPI.csproj" />
     <ProjectReference Include="..\Test.Common\Test.Common.csproj" />
   </ItemGroup>
 

@@ -15,7 +15,7 @@ namespace Infrastructure.Logging
         public static ILoggingBuilder RegisterLogging(this ILoggingBuilder logging, ConfigurationManager config)
         {
             var logger = new LoggerConfiguration()
-                //.WriteTo.File("C:\\Users\\Josean\\Desktop\\PatxiPersianasWriteAPI\\logs\\", rollingInterval: RollingInterval.Day, restrictedToMinimumLevel: )
+                //.WriteTo.File("C:\\Users\\Josean\\Desktop\\ProductsWriteAPI\\logs\\", rollingInterval: RollingInterval.Day, restrictedToMinimumLevel: )
                 .ReadFrom.Configuration(config)
                 .Enrich.FromLogContext()
                 .CreateLogger();

@@ -18,13 +18,13 @@ builder.Services.AddDbContext<ProductMSWriteAPIContext>(options =>
 builder.Services.RegisterExceptionPolicies();
 
 // REGISTER VALIDATORS, REPOSITORIES AND SERVICES.
-builder.Services.RegisterValidators().RegisterRepositories().RegisterServices();
+builder.Services.RegisterValidators().RegisterWriteRepositories().RegisterWriteServices();
 
 //REGISTER LOGGING
 builder.Logging.RegisterLogging(builder.Configuration);
 
 //Automapper
-builder.Services.AddAutoMapper(typeof(BrandsMapperProfile));
+builder.Services.AddAutoMapper(typeof(BrandsMapperProfile).Assembly);
 
 //Memory Cache
 builder.Services.AddMemoryCache();

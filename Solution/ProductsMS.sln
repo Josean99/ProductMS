@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsWriteAPI", "PatxiPersianasWriteAPI\ProductsWriteAPI.csproj", "{774BDC95-F5E5-4A9C-B046-93306BEDEBF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsWriteAPI", "ProductsWriteAPI\ProductsWriteAPI.csproj", "{774BDC95-F5E5-4A9C-B046-93306BEDEBF2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-DAL (Data Access Layer)", "01-DAL (Data Access Layer)", "{D193B1D9-3C21-4AE7-B5C7-1F4E9694D1B9}"
 EndProject
@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IReadRepositories", "IReadR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOs", "DTOs\DTOs.csproj", "{E6B43737-11F0-4860-B463-D2A6C1F84E4F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsReadAPI", "PatxiPersianasReadAPI\ProductsReadAPI.csproj", "{0BD115A5-364B-4408-8275-4524185423F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsReadAPI", "ProductsReadAPI\ProductsReadAPI.csproj", "{0BD115A5-364B-4408-8275-4524185423F1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadBusinessLayer", "ReadBusinessLayer\ReadBusinessLayer.csproj", "{D5DEFA7C-D0DB-4703-A0BC-08DB917C0220}"
 EndProject
